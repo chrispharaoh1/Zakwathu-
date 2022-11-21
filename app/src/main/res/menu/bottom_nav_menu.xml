@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Radios"
+        android:id="@+id/radio"
+        android:icon="@drawable/ic_radio"/>
+
+    <item android:title="TVs"
+        android:id="@+id/tv"
+        android:icon="@drawable/ic_tv"/>
+
+    <item android:title="News"
+        android:id="@+id/news"
+        android:icon="@drawable/ic_news"/>
+</menu>
