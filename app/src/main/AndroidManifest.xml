@@ -9,6 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Zakwathu">
+        <activity android:name=".IslamFM"></activity>
+        <activity android:name=".MobiFM" />
+        <activity android:name=".BeyondFM" />
+        <activity android:name=".ChisomoFM" />
+        <activity android:name=".MariaFM" />
+        <activity android:name=".Radio2FM" />
+        <activity android:name=".MzatiFM" />
+        <activity android:name=".TimesFM" />
+        <activity android:name=".UfuluFM" />
+        <activity android:name=".MbcFM" />
+        <activity android:name=".ZodiakFM" />
+        <activity android:name=".CapitalFM" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

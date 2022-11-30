@@ -1,24 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.circularreveal.CircularRevealFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CapitalFM">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="117dp"
-        android:layout_height="78dp"
-        android:layout_marginStart="164dp"
-        android:layout_marginTop="320dp"
-        android:layout_marginEnd="189dp"
-        android:layout_marginBottom="392dp"
-        android:text="Capital Radio Malawi"
-        android:textSize="30dp"
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:outlineSpotShadowColor="@color/purple_500"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+
+        android:contentDescription="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_previous" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="132dp"
+        android:layout_height="131dp"
+        android:layout_gravity="center|bottom"
+
+        android:contentDescription="play"
+        android:outlineSpotShadowColor="@color/purple_500"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@mipmap/ic_playgood" />
 
-</com.google.android.material.circularreveal.CircularRevealFrameLayout>
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+
+        android:contentDescription="forwar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_next" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_gravity="center|top"
+        android:layout_height="450dp"
+        app:srcCompat="@mipmap/ic_capital_radio" />
+
+
+</FrameLayout>
